@@ -188,3 +188,138 @@ footer hr {
     margin-left: 47%;
     margin-bottom: 1%;
 }
+@media screen and (max-width:480px){
+    body {
+        background-image: url(img/1343.jpg);
+        background-size: 371%;
+    }
+    .P1 ul {
+        margin-top: 1%;
+        display: flex;
+        margin-left: -6%;
+        gap: 1em;
+    }
+    .P1 li{
+        font-size: 15px;
+    }
+    .P1 button{
+        padding: 10%;
+    }
+    .P1 img {
+        margin-left: 30%;
+        margin-top: 2%;
+    }
+    h1{
+        font-size: 45px;
+        margin-top: 4%;
+        margin-left: 21%;
+    }
+    hr{
+        width: 80%;
+    }
+    .container {
+        width: 65%;
+        margin-left: 17%;
+        padding-bottom: 0%;
+    }
+    .row1 {
+        margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        gap: 34px;
+        width: 100%;
+        margin-left: 4%;
+    }
+    .row2 {
+        margin-top: 15%;
+        display: flex;
+        flex-direction: column;
+        gap: 34px;
+        width: 100%;
+        margin-left: 4%;
+    }
+    .row1 h2 {
+        margin-left: 2%;
+        font-size: 120%;
+    }
+    .row2 h2 {
+        margin-left: 2%;
+        font-size: 120%;
+    }
+    .row1 p {
+        padding-top: 9%;
+        margin-top: 3.5%;
+        color: #000000;
+        text-align: center;
+    }
+    .row2 p {
+        padding-top: 9%;
+        margin-top: 3.5%;
+        color: #000000;
+        text-align: center;
+    }
+    .row1 h4 {
+        margin-top: -34.5%;
+        margin-left: 79%;
+        font-size: 16px;
+        color: #EB662B;
+    }
+    .row2 h4 {
+        margin-top: -32.5%;
+        margin-left: 75%;
+        font-size: 16px;
+        color: #EB662B;
+    }
+    .row1 button {
+        margin-top: 37.5%;
+        border: #EB662B;
+        box-shadow: 0 2px 8px 0 black;
+        margin-left: 34%;
+        background-color: #eb662b;
+        border-radius: 2%;
+        color: white;
+        height: 30px;
+        width: 85px;
+    }
+    .row2 button {
+        margin-top: 37.5%;
+        border: #EB662B;
+        box-shadow: 0 2px 8px 0 black;
+        margin-left: 34%;
+        background-color: #eb662b;
+        border-radius: 2%;
+        color: white;
+        height: 30px;
+        width: 85px;
+    }
+    footer h3 {
+        font-size: 25px;
+        margin-top: 7%;
+        margin-left: 12%;
+        margin-bottom: 1%;
+    }
+    footer hr {
+        width: 140px;
+        margin-left: 13%;
+        margin-bottom: 1%;
+    }
+    footer img {
+        width: 25px;
+        margin-left: -425%;
+    }
+    footer ul {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        gap: 1.5em;
+        margin-top: 2%;
+        margin-left: 30%;
+    }
+    .A, .B, .C, .D, .E, .F {
+        box-shadow: 0 4px 8px 0 black;
+        border: 1px solid;
+        border-radius: 5em 0 0 0;
+        background-color: white;
+        padding-bottom: 46px;
+    }
+}
