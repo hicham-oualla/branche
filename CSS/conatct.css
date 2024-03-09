@@ -22,7 +22,7 @@
   font-size: 41px;
   font-weight: 600;
   font-family: 'Poppins', sans-serif;
-  background: -webkit-linear-gradient(right, #df8f46, #ff8100, #c9dc4b, #b3c46a);
+  background: #eb662b;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -37,7 +37,7 @@
     height: 80px;
   }
   .login{
-    margin-top: -10px;
+    margin-top: -12px;
     padding: 12px;
     border: none;
     background-color: #EB662B;
@@ -51,9 +51,9 @@
   }
   .P1 ul{
     font-size: 14px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-top: -26px;
-    margin-left: 15%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: -31px;
+    margin-left: 57%;
     list-style-type: none;
     display: flex;
     gap: 3.1em;
@@ -93,26 +93,8 @@
   }
   
   .sec-2 img {
-    margin: 3px 20px 6px 39px;
+    margin: 60px 20px 6px 39px;
     width: 87%;
-  }
-  
-  .sec-2 .Reach {
-    margin-left: 26%;
-  }
-  
-  .sec-2 h3 {
-    font-size: 25px;
-    margin-left: 25%;
-  }
-  
-  .sec-2 hr {
-    width: 65%;
-    margin-left: 8%;
-  }
-  
-  .sec-2 a {
-    font-size: 12px;
   }
   
   .container form {
@@ -202,7 +184,7 @@
     width: 300%;
     position: absolute;
     left: -100%;
-    background: -webkit-linear-gradient(right, #56d8e4, #9f01ea, #56d8e4, #9f01ea);
+    background: #eb662b;
     transition: all 0.4s;
   }
   
@@ -222,42 +204,144 @@
     position: relative;
     z-index: 2;
   }
-  
+
+
+/* foooter Css */
   footer{
-    padding-top:40px ;
-    padding-bottom: 40px;
-    margin-top: 150px;
+    height: 345px;
     background-color: #FEF7F4;
+  }
+.footer{
+    display: flex;
+    gap: 124px;
+    justify-content: center;
+ 
 
 }
-footer h2{
-    margin-left: 45px;
+.foot-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 35px;
 }
-footer p{
-    margin-top: 20px;
-    margin-left: 45px;
-}
-.P1 a:hover{
-    color: #EB662B;
-}
-footer ul{
+
+
+
+.foot-1   p {
+ color: #eb662b;
+  }  
+.foot-1  ul {
+  list-style-type: none;
+  }  
+.foot-1  ul a{
+    text-decoration: none;
+    color: #eb662b;
+    font-size: 14px;
+  }  
+.foot-1 .contact-foot ul a{
+  font-size: 20px;
+  }
+.foot-1  #hr-contact{
+    border: 1px solid black;
+
+    }  
+.copyright {
+  display: flex;
+  flex-direction: column;
+  padding-left: 44%;
+  padding-top: 1%;
+}  
+.copyright h4{
+      padding-left: 40px  ;
+}  
+.copyright hr{
+  width: 18%;
+  margin-left: 31px;
+}  
+.copyright ul a{
+      font-size: 20px;
+}  
+.copyright .social{
+  display: flex;
+  gap: 11px;
+  padding-left: 49px;
+}  
+.copyright span{
+
+  padding-right: 9px;
+}  
+
+@media screen and (max-width :480px){
+  
+  .container {
     display: flex;
-    align-items: center;
-    margin-left: 43%;
-    list-style-type: none;
-    gap: 1.5em;
+    flex-direction: column;
+    padding: 33px 30px 0 13px;
+    height: 40rem;
+    background-color: rgb(255, 255, 255);
+  }
+  .P1{
+    display: flex;
+      background-color: #FEF7F4;
+      height: 120px;
+  
+  }
+  .sec-2 img {
+    margin: 0px 32px -118px 105px;
+    width: 38%;
 }
-footer img{
-    width:20px; 
-    margin-left: 50%;
+.P1 ul {
+  font-size: 11px;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: 81px;
+  margin-left: -71%;
+  list-style-type: none;
+  display: flex;
+  gap: 2.5em;
 }
-footer h3 {
-    margin-top: -8%;
-    margin-left: 47%;
-    margin-bottom: 1%;
+.container1 {
+  background: rgb(255, 255, 255);
+  padding: 25px 12px 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px;
+  height: 33rem;
+  width: 105%;
+  margin-top: -7%;
 }
-footer hr {
-    width: 108px;
-    margin-left: 47%;
-    margin-bottom: 1%;
-} 
+
+footer{
+  height: 600px;
+  background-color: #FEF7F4;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  justify-content: end;
+}
+.foot-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  padding-top: 35px;
+  padding-left: 5%;
+}
+.foot-1 ul {
+  list-style-type: none;
+  padding-left: 6%;
+}
+.foot-1 P {
+  list-style-type: none;
+  padding-left: 6%;
+}
+.copyright {
+  display: flex;
+  flex-direction: column;
+  padding-left: 29%;
+  padding-top: 1%;
+}
+.nav{
+  width: 57%;
+}
+  
+}
