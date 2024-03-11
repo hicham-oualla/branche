@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 *{
     margin-top: 0;
     margin-bottom: 0;
@@ -11,42 +12,49 @@ body {
 .P1 img{
     margin-top: 22px;
     margin-left: 15px;
-}
+  }
 
-.P1{
+  .P1{
     background-color: #FEF7F4;
     height: 80px;
-}
-.login{
-    margin-top: -10px;
+  }
+  .login{
+    margin-top: -12px;
     padding: 12px;
     border: none;
     background-color: #EB662B;
-}
-#log{
+  }
+  #log{
     color: white;
-}
-.P1 a{
+  }
+  .P1 a{
     text-decoration: none;
     color: black;
-}
-.P1 ul{
+  }
+  .P1 ul{
     font-size: 14px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-top: -26px;
-    margin-left: 15%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: -31px;
+    margin-left: 57%;
     list-style-type: none;
     display: flex;
     gap: 3.1em;
-}
+  }
+  .P1 a:hover{
+    color: #EB662B;
+  }
 h1{
     font-size: 45px;
     margin-top: 4%;
     margin-left: 40%;
+    font-family: 'Poppins', sans-serif;
 }
 hr {
     border: 1px black solid;
-    width: 33%;
+    width: 42%;
+}
+.container{
+    margin-bottom: 5%;
 }
 .row1{
     margin-top: 5%;
@@ -66,21 +74,22 @@ hr {
 
 }
 .row1 h2{
-    margin-left: 2%;  
-    
+    margin-left: 2%;
+    font-family: 'Poppins', sans-serif;  
 }
 .row1 h4{
     margin-top: -23.5%;
-    margin-left: 84%;
+    margin-left: 78%;
     font-size: 17px;
     color: #EB662B;
+    font-family: 'Poppins', sans-serif;
 }
 .row1 p{
     margin-top: 5.5%;
     margin-left: -2%;
     color: #000000;
     text-align: center;
-   
+    font-family: 'Poppins', sans-serif;   
 }
 .row1 button{
     margin-top: 23.5%;
@@ -118,19 +127,22 @@ a{
 
 }
 .row2 h2{
-    margin-left: 2%;  
+    margin-left: 2%; 
+    font-family: 'Poppins', sans-serif; 
 }
 .row2 h4{
     margin-top: -23.5%;
-    margin-left: 81%;
+    margin-left: 78%;
     font-size: 17px;
     color: #EB662B;
+    font-family: 'Poppins', sans-serif;
 }
 .row2 p{
     margin-top: 5.5%;
     margin-left: -2%;
     color: #000000;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
 .row2 button{
     margin-top: 23.5%;
@@ -151,43 +163,69 @@ a{
     padding-bottom: 15px;
 }
 footer{
-    padding-top:40px ;
-    padding-bottom: 40px;
-    margin-top: 150px;
+    height: 345px;
     background-color: #FEF7F4;
-
-}
-footer h2{
-    margin-left: 45px;
-}
-footer p{
-    margin-top: 20px;
-    margin-left: 45px;
-}
-.P1 a:hover{
-    color: #EB662B;
-}
-footer ul{
+  }
+.footer{
     display: flex;
-    align-items: center;
-    margin-left: 43%;
-    list-style-type: none;
-    gap: 1.5em;
+    gap: 124px;
+    justify-content: center;
 }
-footer img{
-    width:20px; 
-    margin-left: 50%;
+.foot-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 35px;
 }
-footer h3 {
-    margin-top: -8%;
-    margin-left: 47%;
-    margin-bottom: 1%;
+
+
+
+.foot-1   p {
+ color: #eb662b;
+ font-family: 'Poppins', sans-serif;
+  }
+.foot-1  ul {
+  list-style-type: none;
+  }
+.foot-1  ul a{
+    text-decoration: none;
+    color: #eb662b;
+    font-size: 14px;
+  }
+.foot-1 .contact-foot ul a{
+  font-size: 20px;
+  }
+.foot-1  #hr-contact{
+    border: 1px solid black;
+
+    }
+.copyright {
+  display: flex;
+  flex-direction: column;
+  padding-left: 44%;
+  padding-top: 1%;
 }
-footer hr {
-    width: 108px;
-    margin-left: 47%;
-    margin-bottom: 1%;
+.copyright h4{
+      padding-left: 40px  ;
+      font-family: 'Poppins', sans-serif;
 }
+.copyright hr{
+  width: 18%;
+  margin-left: 31px;
+}
+.copyright ul a{
+      font-size: 20px;
+}
+.copyright .social{
+  display: flex;
+  gap: 11px;
+  padding-left: 49px;
+}
+.copyright span{
+  font-family: 'Poppins', sans-serif; 
+  padding-right: 9px;
+} 
+
 @media screen and (max-width:480px){
     body {
         background-image: url(img/1343.jpg);
@@ -210,7 +248,7 @@ footer hr {
         margin-top: 2%;
     }
     h1{
-        font-size: 45px;
+        font-size: 36px;
         margin-top: 4%;
         margin-left: 21%;
     }
@@ -220,7 +258,7 @@ footer hr {
     .container {
         width: 65%;
         margin-left: 17%;
-        padding-bottom: 0%;
+        margin-bottom: 5%;
     }
     .row1 {
         margin-top: 5%;
@@ -260,13 +298,13 @@ footer hr {
     }
     .row1 h4 {
         margin-top: -34.5%;
-        margin-left: 79%;
+        margin-left: 73%;
         font-size: 16px;
         color: #EB662B;
     }
     .row2 h4 {
         margin-top: -32.5%;
-        margin-left: 75%;
+        margin-left: 71%;
         font-size: 16px;
         color: #EB662B;
     }
@@ -292,34 +330,65 @@ footer hr {
         height: 30px;
         width: 85px;
     }
-    footer h3 {
-        font-size: 25px;
-        margin-top: 7%;
-        margin-left: 12%;
-        margin-bottom: 1%;
-    }
-    footer hr {
-        width: 140px;
-        margin-left: 13%;
-        margin-bottom: 1%;
-    }
-    footer img {
-        width: 25px;
-        margin-left: -425%;
-    }
-    footer ul {
+    footer{
+        height: 600px;
+        background-color: #FEF7F4;
+      }
+      .footer {
         display: flex;
-        align-items: center;
-        list-style: none;
-        gap: 1.5em;
-        margin-top: 2%;
-        margin-left: 30%;
-    }
-    .A, .B, .C, .D, .E, .F {
-        box-shadow: 0 4px 8px 0 black;
-        border: 1px solid;
-        border-radius: 5em 0 0 0;
-        background-color: white;
-        padding-bottom: 46px;
-    }
+        flex-direction: column;
+        gap: 0px;
+        justify-content: end;
+      }
+      .foot-1 {
+        display: flex;
+        flex-direction: column;
+        gap: 1px;
+        padding-top: 35px;
+        padding-left: 5%;
+      }
+      .foot-1 ul {
+        list-style-type: none;
+        padding-left: 6%;
+      }
+      .foot-1 P {
+        list-style-type: none;
+        padding-left: 6%;
+      }
+      .copyright {
+        display: flex;
+        flex-direction: column;
+        padding-left: 29%;
+        padding-top: 1%;
+      }footer{
+        height: 600px;
+        background-color: #FEF7F4;
+      }
+      .footer {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        justify-content: end;
+      }
+      .foot-1 {
+        display: flex;
+        flex-direction: column;
+        gap: 1px;
+        padding-top: 35px;
+        padding-left: 5%;
+      }
+      .foot-1 ul {
+        list-style-type: none;
+        padding-left: 6%;
+      }
+      .foot-1 P {
+        list-style-type: none;
+        padding-left: 6%;
+      }
+      .copyright {
+        display: flex;
+        flex-direction: column;
+        padding-left: 29%;
+        padding-top: 1%;
+      }
 }
