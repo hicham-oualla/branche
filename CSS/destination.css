@@ -1,0 +1,339 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(IMAGE/destination/1343.jpg);
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+ }
+ 
+ .content{
+ 
+ }
+ 
+ 
+ /*STYLE DE HEADER*/
+ .P1 img{
+   margin-top: 22px;
+   margin-left: 15px;
+ }
+ 
+ .P1{
+   background-color: #FEF7F4;
+   height: 80px;
+ }
+ .login{
+   margin-top: -12px;
+   padding: 12px;
+   border: none;
+   background-color: #EB662B;
+ }
+ #log{
+   color: white;
+ }
+ .P1 a{
+   text-decoration: none;
+   color: black;
+ }
+ .P1 ul{
+   font-size: 14px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   margin-top: -31px;
+   margin-left: 57%;
+   list-style-type: none;
+   display: flex;
+   gap: 3.1em;
+ }
+ .P1 a:hover{
+   color: #EB662B;
+ }
+ 
+ .les_paragraphes{
+   align-items: center;
+   height: 200px;
+   background-image:url(../IMAGE/destination/slide.jpg);
+   background-repeat: no-repeat;
+   background-size: 100% 200px;
+   border-radius: 7px 7px 7px 7px;
+   
+ }
+ 
+ 
+ /*style de pargraphe Les destinations préférées de nos clients*/
+ .p1{
+   padding-top: 6%;
+   padding-left: 5%;
+   margin: 0;
+   font-size: 40px;
+   font-weight: bold;
+   color: white; 
+   text-shadow: -4px 4px rgba(38, 48, 38, 0.89);
+   
+ }
+ 
+ .p2{
+     padding-left: 5%;
+     margin: 0;
+     font-size: 20px;
+     color:white;
+     text-shadow: -2px -2px rgba(20, 18, 24, 0.824);
+    
+ }
+  
+ .casa_to_ifrane,.agadir_to_paris{
+     margin-top: 30px;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     flex-wrap: wrap;
+     align-content: flex-start;
+ 
+ }
+ 
+ #img_casa, #img_Marakech,#img_ifrane ,#img_agadir ,#img_tanger, #img_paris{
+   
+    width: 17em;
+    height: 12em;
+    border-radius: 8px 8px 8px 8px;
+   
+ }
+ 
+ 
+ 
+ /*les div de chaque ville */
+ .casablanca, .marakech, .ifrane, .agadir, .tanger, .paris{
+     position: relative;
+     background-color: chartreuse;
+     width: 17em;
+     height: 12em;
+     border-radius: 8px 8px 8px 8px;
+    
+ }
+ 
+ /* hover de tous les ville*/
+ .casablanca:hover, .marakech:hover, .ifrane:hover, .agadir:hover, .tanger:hover, .paris:hover{
+   box-shadow: 0px 0px 7px black;
+   cursor: pointer;
+ }
+ 
+ 
+ /* div nom ville et drapau*/
+ .nom_ville_parag{
+   display: flex;
+   position: absolute;
+   top: 3%;
+   left: 3%;
+   align-items: center;
+ 
+ }
+ 
+ /*drapau */
+ .drapau{
+   width: 8%;
+   margin-left: 1em;
+ }
+ 
+ /*nom de ville*/
+ .nom_ville{
+   margin: 0;
+   font-size: 20px;
+   color: white;
+ 
+ }
+ 
+ /*style de footer*/
+ footer{
+   margin-top: 50px;
+   background-color: #FEF7F4;
+ }
+ .footer{
+ 
+   display: flex;
+   gap: 124px;
+   justify-content: center;
+ 
+ }
+ .foot-1 {
+ display: flex;
+ flex-direction: column;
+ 
+ 
+ }
+ 
+ .foot-1   p {
+   color: #eb662b;
+   line-height: 25px;
+ }
+ .foot-1  ul {
+   padding: 0;
+   list-style-type: none;
+   line-height: 25px;
+ }
+ .foot-1  ul a{
+   text-decoration: none;
+   color: #eb662b;
+   font-size: 14px;
+ }
+ .foot-1 .contact-foot ul a{
+ font-size: 20px;
+ }
+ .foot-1  #hr-contact{
+   border: 1px solid black;
+ 
+   }
+ .copyright {
+    
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+ 
+ .copyright ul a{
+     font-size: 20px;
+ }
+ .copyright .social{
+ display: flex;
+ gap: 11px;
+ padding-left: 49px;
+ }
+ .copyright span{
+ 
+ padding-right: 9px;
+ } 
+ 
+ /*style de footer*/
+ /*footer{
+   margin-top: 30px;
+   background-color:#FEF7F4;
+   display: flex;
+   justify-content:space-evenly;
+ }
+ 
+ /*style de tous les iconnes*/
+ /*.les_icon{
+   display: flex;
+   justify-content: space-evenly;
+  
+ }
+ .media_and_icon img{
+   width:20px ; 
+ }
+ 
+ */
+ 
+ 
+ 
+ /*Media wuery de header*/
+ @media (max-width:800px){
+   .nav{
+     width: 57%;
+   }
+   
+   .P1{
+     display: flex;
+       background-color: #FEF7F4;
+       height: 120px;
+   
+   }
+   .sec-2 img {
+     margin: 0px 32px -118px 105px;
+     width: 38%;
+   }
+   .P1 ul {
+   font-size: 11px;
+   font-weight: bold;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   margin-top: 81px;
+   margin-left: -71%;
+   list-style-type: none;
+   display: flex;
+   gap: 2.5em;
+   }
+   
+ 
+ }
+ 
+ /*debut de media query*/
+ @media (max-width:800px){
+   
+   .casa_to_ifrane,.agadir_to_paris{
+     flex-direction: column;
+     flex-wrap: nowrap;
+     margin-top: 0;
+     justify-content: space-between;
+ }
+ .casablanca, .marakech, .ifrane, .agadir, .tanger, .paris{
+   margin-top: 12px;
+ 
+ }
+ footer{
+  
+ }
+ 
+ }
+ 
+ /*media wuery de footer*/
+ @media (max-width:800px){
+   footer{
+   height: 600px;
+   background-color: #FEF7F4;
+ }
+ .footer {
+   display: flex;
+   flex-direction: column;
+   gap: 0px;
+   justify-content: end;
+ }
+ .foot-1 {
+   display: flex;
+   flex-direction: column;
+   gap: 1px;
+   padding-top: 35px;
+   padding-left: 5%;
+ }
+ .foot-1 ul {
+   list-style-type: none;
+   padding-left: 6%;
+ }
+ .foot-1 P {
+   list-style-type: none;
+   padding-left: 6%;
+ }
+ .copyright {
+   display: flex;
+   flex-direction: column;
+   padding-left: 29%;
+   padding-top: 1%;
+ }footer{
+   height: 600px;
+   background-color: #FEF7F4;
+ }
+ .footer {
+   display: flex;
+   flex-direction: column;
+   gap: 0px;
+   justify-content: end;
+ }
+ .foot-1 {
+   display: flex;
+   flex-direction: column;
+   gap: 1px;
+   padding-top: 35px;
+   padding-left: 5%;
+ }
+ .foot-1 ul {
+   list-style-type: none;
+   padding-left: 6%;
+ }
+ .foot-1 P {
+   list-style-type: none;
+   padding-left: 6%;
+ }
+ .copyright {
+   display: flex;
+   flex-direction: column;
+   padding-left: 29%;
+   padding-top: 1%;
+ } }
