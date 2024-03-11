@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Joti+One&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#orange {
+    color: #EF7741;
+}
+
+.container {
+    display: flex;
+}
+
+.box1 {
+    background-color: #FEF7F4;
+    height: 100%;
+    width: 40%;
+}
+
+.expression {
+    padding-top: 48px;
+    padding-left: 30px;
+    font-family: "Joti One", serif;
+    font-weight: 400;
+}
+
+#explor {
+    width: 273px;
+    padding-top: 9px;
+    padding-left: 57px;
+}
+
+.box2 {
+    background-image: url('/IMAGE/login/1343.jpg');
+    background-size: cover;
+    height: 580px;
+    width: 60%;
+}
+
+.titre {
+    MARGIN-LEFT: 84PX;
+    padding-left: 190px;
+    margin-top: 20px;
+}
+
+#titre {
+    padding-left: 238px;
+}
+
+.registration {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+label {
+    font-size: 18px;
+    margin-bottom: 5px;
+    MARGIN-LEFT: 128PX;
+}
+
+input {
+    width: 57%;
+    padding: 7px;
+    margin-bottom: 3px;
+    border: 1px solid #ccc;
+    border-radius: 21px;
+    height: 21PX;
+    border-color: orange;
+    margin-left: 114PX;
+}
+
+button {
+    width: 16%;
+    padding: 10px;
+    background-color: #EF7741;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    
+        MARGIN-LEFT: 251px;
+}
+
+button:hover {
+    background-color: #D65E33;
+}
+
+.login-section {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.login-section a {
+    color: #EF7741;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-section a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box1 {
+        background-color: #FEF7F4;
+        height: 73px;
+        width: 99%;
+    }
+
+    .box2 {
+        background-image: url('/IMAGE/login/1343.jpg');
+        height: 601px;
+        width: 134%;
+        background-repeat: no-repeat;
+    }
+
+    .expression {
+        display: none;
+    }
+
+    #explor {
+        display: none;
+    }
+
+    .logo {
+        padding-left: 28%;
+        padding-top: 5%;
+    }
+
+    .titre {
+        padding-left: 44px;
+        margin-top: 20px;
+        font-size: 23px;
+    }
+
+    #titre {
+        padding-left: 108px;
+        font-size: 24px;
+    }
+
+    .box2 {
+        height: 501px;
+        width: 388px;
+    }
+    input {
+        width: 57%;
+        padding: 7px;
+        margin-bottom: 3px;
+        border: 1px solid #ccc;
+        border-radius: 21px;
+        height: 21PX;
+        border-color: orange;
+        margin-left: 45PX;
+    }label {
+        font-size: 18px;
+        margin-bottom: 5px;
+        MARGIN-LEFT: 54PX;
+    }
+
+    button {
+        width: 60%;
+    }
+    button {
+       
+        padding: 10px;
+        background-color: #EF7741;
+        color: white;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        MARGIN-LEFT: 48px;
+    }
+}
