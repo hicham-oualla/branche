@@ -92,3 +92,152 @@ section .row-1{
 .cart-4{
     flex: 1;
 }
+footer{
+    height: 345px;
+    background-color: #FEF7F4;
+  }
+.footer{
+    display: flex;
+    gap: 124px;
+    justify-content: center;
+ 
+
+}
+.foot-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 35px;
+}
+
+
+
+.foot-1   p {
+ color: #eb662b;
+  }
+.foot-1  ul {
+  list-style-type: none;
+  }
+.foot-1  ul a{
+    text-decoration: none;
+    color: #eb662b;
+    font-size: 14px;
+  }
+.foot-1 .contact-foot ul a{
+  font-size: 20px;
+  }
+.foot-1  #hr-contact{
+    border: 1px solid black;
+
+    }
+.copyright {
+  display: flex;
+  flex-direction: column;
+  padding-left: 44%;
+  padding-top: 1%;
+}
+.copyright h4{
+      padding-left: 40px  ;
+}
+.copyright hr{
+  width: 18%;
+  margin-left: 31px;
+}
+.copyright ul a{
+      font-size: 20px;
+}
+.copyright .social{
+  display: flex;
+  gap: 11px;
+  padding-left: 49px;
+}
+.copyright span{
+
+  padding-right: 9px;
+} 
+@media screen and (max-width :480px){
+     .nav{
+    width: 57%;
+  }
+
+  .P1{
+    display: flex;
+      background-color: #FEF7F4;
+      height: 120px;
+
+  }
+  .sec-2 img {
+    margin: 0px 32px -118px 105px;
+    width: 38%;
+}
+.P1 ul {
+  font-size: 11px;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: 81px;
+  margin-left: -71%;
+  list-style-type: none;
+  display: flex;
+  gap: 2.5em;
+}
+    footer{
+  height: 600px;
+  background-color: #FEF7F4;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  justify-content: end;
+}
+.foot-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  padding-top: 35px;
+  padding-left: 5%;
+}
+.foot-1 ul {
+  list-style-type: none;
+  padding-left: 6%;
+}
+.foot-1 P {
+  list-style-type: none;
+  padding-left: 6%;
+}
+.copyright {
+  display: flex;
+  flex-direction: column;
+  padding-left: 29%;
+  padding-top: 1%;
+}footer{
+  height: 600px;
+  background-color: #FEF7F4;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  justify-content: end;
+}
+.foot-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  padding-top: 35px;
+  padding-left: 5%;
+}
+.foot-1 ul {
+  list-style-type: none;
+  padding-left: 6%;
+}
+.foot-1 P {
+  list-style-type: none;
+  padding-left: 6%;
+}
+.copyright {
+  display: flex;
+  flex-direction: column;
+  padding-left: 29%;
+  padding-top: 1%;
+} }
